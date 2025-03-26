@@ -13,7 +13,7 @@ def images_to_text(images_folder="page_jpegs"):
         image_path = os.path.join(images_folder, image_name)
         
         # Use pytesseract to do OCR on the image
-        text = pytesseract.image_to_string(image_path)
+        text = pytesseract.image_to_string(image_path, lang='spa', config='--psm 6')
         
         # Save the converted text to the page_text directory
         output_filename = image_name.replace("_preprocessed.jpeg", ".txt")

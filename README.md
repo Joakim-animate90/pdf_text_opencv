@@ -65,3 +65,15 @@ OpenCV is utilized in this project for preprocessing images extracted from PDFs.
 ## Notes
 - Ensure that Tesseract OCR is correctly installed on your system for the text extraction to work.
 - Adjust the scripts as necessary to fit your specific PDF and image processing needs.
+
+## Example: Page 14
+
+Below is an example of the preprocessed image and the extracted text for Page 14 of the document.
+
+### Preprocessed Image
+![Page 14 Preprocessed](page_jpegs/Page_014_preprocessed.jpeg)
+
+### Extracted Text File
+The extracted text is saved in the file: [Page_014.txt](page_text/Page_014.txt)
+
+
