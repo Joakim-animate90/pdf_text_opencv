@@ -16,7 +16,7 @@ def convert_pdf_to_text(pdf_path):
 
 
 def main():
-    pdf_path = "53872.pdf"
+    pdf_path = "joakim2.pdf"
     text = convert_pdf_to_text(pdf_path)
     print("Extracted Text:")
     print(text)

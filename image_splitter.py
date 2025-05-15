@@ -9,7 +9,8 @@ def pdf_to_images(pdf_path, dpi=300, output_folder="page_jpegs"):
 
     print(f"Converting PDF to images with DPI={dpi}...")
     images = convert_from_path(pdf_path, dpi=dpi, fmt="jpeg")
-    total_pages = len(images)
+    #total_pages = len(images)
+    total_pages = 2
     digits = len(str(total_pages))
 
     for i, image in enumerate(images):
